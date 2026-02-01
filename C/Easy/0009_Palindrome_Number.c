@@ -1,5 +1,14 @@
 // Given an integer x, return true if x is a palindrome, and false otherwise.
+/*
+LeetCode 9 - Palindrome Number
+Difficulty: Easy
 
+Approach:
+Store digits in an array, reverse it, and compare both arrays.
+
+Time Complexity: O(log10 n)
+Space Complexity: O(log10 n)
+*/
 bool isPalindrome(int x) {
     if(x==0) return true;// for handling an ERROR
     if(x<0) return false;// for handling negative value to return false
